@@ -5,9 +5,7 @@ import hello.jdbc.domain.Member;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
-import java.net.PasswordAuthentication;
 import java.sql.SQLException;
 import java.util.NoSuchElementException;
 
