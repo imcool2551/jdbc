@@ -51,9 +51,6 @@ public class ExTranslatorV1Test {
                 String retryId = generateNewId(memberId);
                 log.info("retryId={}", retryId);
                 repository.save(new Member(retryId, 0));
-            } catch (MyDbException e) {
-                log.info("데이터 접근 계층 예외", e);
-                throw e;
             }
         }
 
